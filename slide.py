@@ -5,15 +5,6 @@ from crypt import Cypher
 from crypt_lib import enc
 
 
-def crypt_def(M: bytes):
-    return M
-
-
-if __name__ == "__main__":
-    pairs = {}
-    M = random.randbytes(6)
-    C = crypt_def(M)
-
 
 def find_key():
     pairs: dict[int, tuple[int, int]] = {}
